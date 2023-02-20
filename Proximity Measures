@@ -4,7 +4,7 @@ att2="List of Items'
 n=int(input("Enter the number of Datapoints:"))
 items=[]
 for i in range(n):
-    att1=input("Enter the Transaction ID:")
+    	att1=input("Enter the Transaction ID:")
 	att2=list(map(str,input("Enter the List of items:").split(" ")))
 	data.append([att1}*att2)
 	for j in att2:
