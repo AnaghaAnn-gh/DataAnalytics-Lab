@@ -1,12 +1,12 @@
 data=[]
 att1="Transaction id"
-att2="List of Items'
+att2="List of items"
 n=int(input("Enter the number of Datapoints:"))
 items=[]
 for i in range(n):
-    	att1=input("Enter the Transaction ID:")
+	att1=input("Enter the Transaction ID:")
 	att2=list(map(str,input("Enter the List of items:").split(" ")))
-	data.append([att1}*att2)
+	data.append([att1]*att2)
 	for j in att2:
 		if [j] not in items:
 			items.append([j])
@@ -41,7 +41,7 @@ for i in items:
 				break
 		if flag1==1:
 			count+=1
-	if count=min_sup:
+	if count >= min_sup:
 		max_l=max(max_l,len(l))
 		satissets.append(i)
 for i in range(max_l):
